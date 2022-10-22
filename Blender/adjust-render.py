@@ -6,7 +6,7 @@ cParser = argparse.ArgumentParser('Blender Render Adjust Script')
 cParser.add_argument('--resolution',
         type=int,
         help="Resolution of single frame",
-        default=64)
+        default=512)
 
 args, _ = cParser.parse_known_args(['--', '-f'])
 
